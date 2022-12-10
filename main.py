@@ -8,7 +8,7 @@ number=input().split(",")
 number=[int(item) for item in number]
 for i in number:
     if (isFibonacci(i) == True):
-        print(i, "Valid")
+        print(i, "belongs to fibonacciseries")
     else:
-        print(i, "Not Valid")
+        print(i, "Not belongs to fibonacciseries")
 
